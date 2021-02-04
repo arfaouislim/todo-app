@@ -1,0 +1,66 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #777;
+  padding: 15px 30px 15px 30px;
+  line-height: 2em;
+  text-align: center;
+  background-color: rgb(252, 252, 252);
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer span {
+  color: #777;
+}
+
+footer ul {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+footer ul li {
+  display: inline;
+  padding: 5px;
+  list-style: none;
+}
+
+.filters {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+.filters li button {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  margin: 1px;
+  padding: 3px;
+  text-decoration: none;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  color: #777;
+}
+
+.filters li button:hover {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid rgba(140, 140, 140, 0.2);
+  text-decoration: none;
+  color: #777;
+}
+
+.filters li button.selected {
+  background-color: transparent;
+  border: 1px solid rgba(175, 47, 47, 0.2);
+  text-decoration: none;
+  color: #777;
+}
